@@ -14,3 +14,13 @@ The various components of a basic cryptosystem are Plaintext, Encryption Algorit
 # Asymmetric Key Encryption
 - Different keys are used for encrypting and decrypting the information.
 - Though the keys are different, they are mathematically related and hence, retrieving the plaintext by decrypting cipher text is feasible.
+
+
+Code uses AES algo
+128-bit key
+16-bit ivKey
+
+Encrypt -
+http://localhost:8080/crypto/encrypt/{input}
+Decrypt - 
+http://localhost:8080/crypto/decrypt/{input}
